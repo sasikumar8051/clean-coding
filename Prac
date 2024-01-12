@@ -1,0 +1,19 @@
+import java.util.*;
+public class Prac
+{
+	public static void main(String[] args) {
+	    int Eligibletovote=10;
+	    int Noteligibletovote=18;
+	    Scanner obj=new Scanner(System.in);
+	    System.out.println("Enter your age to check the eligible to Vote");
+	    int candidateage=obj.nextInt();
+	    if(candidateage>=Noteligibletovote)
+	    {
+	        System.out.println("Welcome to vote ");
+	    }
+	    else
+	    {
+		    System.out.println("Sorry your are not eligible to Vote");
+	    }
+	}
+}
